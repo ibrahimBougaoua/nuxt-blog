@@ -1,12 +1,12 @@
 <template>
     <div class="container mx-auto px-4">
       <Header />
+      <slot />
       <SectionOne />
       <sectionTow />
       <sectionThree />
       <SectionFour />
       <Features />
-      <Nuxt />
       <Footer />
     </div>
 </template>
