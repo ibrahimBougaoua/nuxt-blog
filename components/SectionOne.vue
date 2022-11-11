@@ -38,7 +38,7 @@
                         <img src="../images/wallet.PNG" alt="img">
                     </span> 
                     <div class="space-y-5"> 
-                        <h1 class="text-xl font-bold">add funf in wallet</h1> 
+                        <h1 class="text-xl font-bold">Add funf in wallet</h1> 
                         <p>Quickly add Money to You'r Investement Wallet</p>
                     </div>
                 </div>
