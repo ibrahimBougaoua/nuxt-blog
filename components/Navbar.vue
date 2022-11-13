@@ -1,5 +1,5 @@
 <template>
-    <nav class="container mx-auto p-5">
+    <nav class="container mx-auto py-5">
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <div>
@@ -19,10 +19,10 @@
             <a href="#" class="hover:text-darkGrayishBlue">English</a>
             <a href="#" class="hover:text-darkGrayishBlue">Inr</a>
           </div>
-          <div class="space-x-0 p-5 rounded text-white" style="background-color: #1f99fa;">
-            <a href="#" class="hover:text-darkGrayishBlue">Login</a>
+          <div class="space-x-2 p-5 rounded text-white" style="background-color: #1f99fa;">
+            <a href="/login" class="hover:text-darkGrayishBlue">Login</a>
             <a href="javascript:void(0)" class="">/</a>
-            <a href="#" class="hover:text-darkGrayishBlue">Register</a>
+            <a href="/signup" class="hover:text-darkGrayishBlue">Register</a>
           </div>
         </div>
         
