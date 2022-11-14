@@ -1,19 +1,24 @@
 <template>
-  <div>
-    <p class="bg-orange-600 text-white text-xl text-center p-10">This page will be displayed at the /index route.</p>
-  </div>
+  <span class="bg-cyan-700 rounded-full">&#10003;</span> 
+ <Header></Header>
+ 
+ <SectionOne class="my-5"></SectionOne>
+ <Sectiontwo class="my-5"></Sectiontwo>
 </template>
 
 <script>
   import Navbar from '~/components/Navbar.vue';
   import Header from '~/components/basic/Header.vue';
   import SectionOne from '~/components/SectionOne.vue';
+  import Sectiontwo from "~/components/sectionTow.vue";
   
   export default {
     name: 'IndexPage',
     components : {
       Navbar,
       Header,
+      SectionOne,
+      Sectiontwo,
     }
   }
 </script>
