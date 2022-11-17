@@ -110,5 +110,97 @@
 
     </div>
 
+    <div class="flex  justify-center ">
+        <div class="flex-col">
+            <div class=" justify-self-auto">
+                <h1 class="text-blue-700 font-semibold mt-5">Dynamic Trading</h1>
+                <img class="w-24 " src="../images/round.png" />
+            </div>
+        </div>
+ 
+    </div>
 
+    <div class="flex  justify-center ">
+        <div class="flex-col">
+            <h1 class="text-blue-900 font-bold text-5xl m-5">see our serticified user says about dynamic!</h1>
+            <p>lorem ipsum has been industry's stadard dummy text  since 1500s  when an unkown printer took a galley of type and scambed iy to make a type spicemen book</p>
+        </div>
+
+    </div>
+    
+
+    <Splide :options="{ rewind: true }" aria-label="My Favorite Images">
+        <SplideSlide>
+            <div class="grid grid-cols-2 gap-2 ">
+                <Commentaire class=" border rounded-lg" title="buying crypto was never so easy 1" :t=paragraphe :auteur=Auteur :ville=Ville></Commentaire>
+                <Commentaire class="border rounded-lg" title="buying crypto was never so easy 2" :t=paragraphe :auteur=Auteur :ville=Ville></Commentaire>
+                
+
+            </div>
+            
+        </SplideSlide>
+        <SplideSlide>
+            <div class="grid grid-cols-2 gap-2  ">
+                <Commentaire class="border rounded-lg" title="buying crypto was never so easy 3" :t=paragraphe :auteur=Auteur :ville=Ville></Commentaire>
+                <Commentaire class="border rounded-lg" title="buying crypto was never so easy 4" :t=paragraphe :auteur=Auteur :ville=Ville></Commentaire>
+
+            </div>
+        </SplideSlide>
+    </Splide>
+
+    <div class="flex  justify-center m-6 ">
+        <div class="flex-col">
+            <div class=" justify-self-auto">
+                <h1 class="text-blue-700 font-semibold mt-5">Dynamic Trading</h1>
+                <img class="w-24 " src="../images/round.png" />
+            </div>
+        </div>
+ 
+    </div>
+
+    <div class="flex  justify-center ">
+        <div class=" flex flex-col">
+            <h1 class="text-blue-900 font-bold text-5xl m-5">get more benefit with subscription</h1>
+            <div class="flex justify-center">
+                <span class="mx-2"> Mothly</span>
+                <label class="inline-flex relative  cursor-pointer">
+                    <input type="checkbox" value="ok" class="sr-only peer">
+                
+                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                
+                </label>
+                <span class="mx-2"> Yearly</span>
+
+            </div>
+        </div>
+   
+      
+
+    </div>
 </template>
+
+<script>
+import { Splide, SplideSlide } from '@splidejs/vue-splide';
+import '@splidejs/vue-splide/css';
+import Commentaire from "./Commentaire.vue"
+
+export default defineComponent( {
+  components: {
+    Splide,
+    SplideSlide,
+    Commentaire
+  },
+  data(){
+    return{
+        paragraphe:"lorem ipsum has been industry's stadard dummy text  since 1500s  when an unkown printer took a galley of type and scambed iy to make a type spicemen boo",
+        Auteur:"hocine",
+        Ville:"new york ,usa",
+
+    }
+  },
+} );
+</script>
+
+<style scoped>
+
+</style>
