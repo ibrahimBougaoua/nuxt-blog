@@ -1,5 +1,5 @@
 <template>
-  <span class="bg-cyan-700 rounded-full">&#10003;</span> 
+  
  <Header></Header>
  
  <SectionOne class="my-5"></SectionOne>

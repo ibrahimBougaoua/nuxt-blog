@@ -1,8 +1,8 @@
 <template>
     <div>
-        <footer>
+        <footer class="mt-5">
             <div class="grid  grid-cols-5 gap-5">
-                <div>
+                <div class="ml-4">
                     <img src="../../images/Capture.PNG" alt="logo">
                     <p>lorem ipsum has been the industry stadert dummytext ever sincethe 1500s</p>
 
