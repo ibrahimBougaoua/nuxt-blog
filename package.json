@@ -12,6 +12,8 @@
     "tailwindcss": "^3.2.1"
   },
   "dependencies": {
-    "@heroicons/vue": "^1.0.6"
+    "@heroicons/vue": "^1.0.6",
+    "@splidejs/vue-splide": "^0.6.12",
+    "bootstrap4-toggle": "^3.6.1"
   }
 }

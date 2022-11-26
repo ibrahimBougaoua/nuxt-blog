@@ -3,15 +3,18 @@
       <Navbar />
       <slot />
     </div>
+    
+    <Footer/>
+
 </template>
 
 <script>
 import Header from '~/components/basic/Header.vue';
-
+import Footer from '~/components/basic/Footer.vue';
 export default {
   name : 'default',
   components : {
-    Header,
+    Header,Footer
   }
 }
 </script>
